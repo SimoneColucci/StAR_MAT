@@ -1,7 +1,7 @@
-# StAR_MAT
+## StAR_MAT
 A MATLAB tool for Statistical Analysis of Rocks
 
-### Software development and maintenance
+## Software development and maintenance
 
 This repository contains the original MATLAB implementation of StAR. 
 The maintained Python version, available at https://github.com/SimoneColucci/StAR, is recommended for new applications
@@ -77,41 +77,41 @@ pip install -r requirements.txt
 
 ## CASE 2: LINUX / macOS (using a virtual environment - recommended)
 
-# Navigate to the project directory
+Navigate to the project directory
 ```bash
 cd ~/StAR_MAT/src/Stereology
 ```
 
-# Set Python 3.10 as the local version for this folder
+Set Python 3.10 as the local version for this folder
 ```bash
 pyenv local 3.10
 ```
 
-# Create a virtual environment named 'venv'
+Create a virtual environment named 'venv'
 ```bash
 python -m venv venv
 ```
 
-# Activate the virtual environment
+Activate the virtual environment
 ```bash
 source venv/bin/activate
 ```
 
-# Upgrade pip to ensure compatibility with modern wheels
+Upgrade pip to ensure compatibility with modern wheels
 ```bash
 pip install --upgrade pip
 ```
 
-# Install pysizeunfolder directly from the GitHub repository
+Install pysizeunfolder directly from the GitHub repository
 ```bash
 pip install git+https://github.com/thomasvdj/pysizeunfolder
 ```
 
-# Install all other required libraries
+Install all other required libraries
 ```bash
 pip install -r requirements.txt
 ```
-### Usage
+## Usage
 
 ```Command Windows
 cd run
